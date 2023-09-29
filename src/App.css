@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -16,7 +16,7 @@ body {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #3f3f3f;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
@@ -51,8 +51,10 @@ body {
 .calInput {
   max-width: 400px;
   padding-top: 20px;
-  background-color: #ffffff;
+  background-color: #3e3e3e;
   border: 0px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 14px rgba(-3, 4, 9, 3.1);
   border-radius: 5px;
+  color: white;
+  font-size: 25px;
 }

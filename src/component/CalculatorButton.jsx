@@ -25,7 +25,7 @@ const CalculatorButton = ({calculateReducer, calculate}) => {
 		}
 	}
 	return (
-			<div className='calculator'>
+			<div className='calculator' style={{marginTop: "-6px"}}>
 					<div>
 							<Buttons btnStyle={calNumbtn} onclick={() => handleClick("AC")} btnName={"AC"} />
 							<Buttons btnStyle={calOpbtn} onclick={() => handleClick("-/+")} btnName={"-/+"} />

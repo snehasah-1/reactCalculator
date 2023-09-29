@@ -7,7 +7,7 @@ const CalculatorDisplay = ({calculateReducer}) => {
     const {total,currentInput} = calculateReducer;
     return (
         <div className='calculator'>
-            <h3>Calculotor</h3>
+            <h3 style={{color:"#fff"}}>Calculotor</h3>
             <Input type='text' className='calInput' name='cal-display' id='cal-display' value={displayValue || (Number(currentInput) ? currentInput: total)} onChange={(e) => setDisplayValue(e.target.value)}  />
         </div>
     )
